@@ -95,8 +95,7 @@ width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    display: flex;
-    justify-content: space-around;
+    
     
 }
 .d6{
@@ -107,15 +106,15 @@ width: 70%;
     grid-column: 2/3;
     grid-row: 1/2;
 }.d2{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}.d3{
     grid-column: 3/4;
     grid-row: 1/2;
-}.d4{
+}.d3{
     grid-column: 1/2;
-    grid-row: 2/1;
-}.d5{
+    grid-row: 2/3;
+}.d4{
     grid-column: 2/3;
+    grid-row: 2/3;
+}.d5{
+    grid-column: 3/4;
     grid-row: 2/3;
 }
