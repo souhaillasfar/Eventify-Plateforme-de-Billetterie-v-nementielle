@@ -1,0 +1,121 @@
+body{
+    background-image: url("./images/Rectangle 1.png"),url("./images/Rectangle\ 10.png") ;
+    
+    
+    background-blend-mode: multiply;
+}
+
+.nav_bar{
+    background-color: blueviolet;
+    opacity: calc(0.8);
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    
+}
+
+
+
+.navbar{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    /* z-index: 100; */
+
+}
+.A{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}.A img{
+    grid-column: 1/3;
+}.A h2,p{
+    grid-column: 3/5;
+}
+
+
+
+.grid div{
+    border: 2px solid;
+   display: flex;
+   flex-direction: row;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+
+    
+   
+}
+.input1 [type=button]{
+   
+    background-color: rgb(220, 17, 122);
+    color: aliceblue;
+    padding: 15px 50px ;
+    text-decoration:solid;
+}
+.tab {
+    display: grid;
+    background-color: blueviolet;
+    border: 2px solid;
+justify-content:flex-end ;
+grid-template-columns: 1fr 1fr 1fr;
+justify-content: space-around;
+align-items: center;
+margin-right: 10%;
+margin-left: 10%;
+padding: 2%;
+
+height: 70%;
+width: 70%;
+
+}
+.select{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.select select{
+    
+    background-color: aliceblue;
+    /* width: 59%; */
+    padding: 8px;
+    
+}
+.upcoming{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+.grid_pl{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.d6{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.d1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}.d2{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}.d3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}.d4{
+    grid-column: 1/2;
+    grid-row: 2/1;
+}.d5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
