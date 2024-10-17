@@ -1,6 +1,8 @@
 body{
     background-image: url("./images/Rectangle 1.png"),url("./images/Rectangle\ 10.png") ;
-    
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
     
     background-blend-mode: multiply;
 }
@@ -63,12 +65,10 @@ justify-content:flex-end ;
 grid-template-columns: 1fr 1fr 1fr;
 justify-content: space-around;
 align-items: center;
-margin-right: 10%;
-margin-left: 10%;
-padding: 2%;
+margin-inline: auto;
 
-height: 70%;
-width: 70%;
+height: 10%;
+width: 80%;
 
 }
 .select{
@@ -86,11 +86,12 @@ width: 70%;
 }
 .upcoming{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: aliceblue;
 }
 .grid_pl{
+   
     background-color: aliceblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -117,4 +118,72 @@ width: 70%;
 }.d5{
     grid-column: 3/4;
     grid-row: 2/3;
+}
+.bt{
+    background-color: aliceblue;
+    padding: 30px 60px;
+}
+.bt [type=button]{
+    background-color: aliceblue;
+    color: #3D37F1;
+    font-weight:600 ;
+    width: 163px;
+    height: 47px;
+    
+    border-radius: 40px;
+    border-color: #3D37F1;
+    text-decoration:solid;
+    display: flex;
+    
+    margin-inline: auto;
+}
+.datebox{
+  display: flex;
+ */
+}
+.dd{
+    
+   display: flex;
+    align-items: start;
+    justify-content: center;
+      margin-top: 20px;
+      width: 80px;
+}
+.join{
+    background-color: #EEE1FF;
+    width: 100%;
+    height: 200px;;
+}
+.joinh{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: #242565;
+    font: size 40px;
+}
+.joinp{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: #6A6A6A;
+}
+.grid_img{
+    display: grid;
+    grid-template-columns: repeat(5,15%);
+    object-fit: cover;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.grid_img img{
+height: 50px;
+width: 100px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    color: #242565;
+}
+.blog p{
+    color:#6A6A6A;
 }
