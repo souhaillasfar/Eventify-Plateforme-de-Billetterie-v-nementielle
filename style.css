@@ -40,7 +40,7 @@ body{
    
 
 .input1 [type=button]{
-   
+
     background-color: rgb(220, 17, 122);
     color: aliceblue;
     width: 120px;
@@ -48,7 +48,17 @@ body{
     border-radius: 40px;
     text-decoration:solid;
 }
-.tab {
+
+.button_2 [type=button]{
+    background-color: aliceblue;
+    font-weight:600 ;
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    border-color: #3e3abd;
+    text-decoration:solid;
+}
+.grid_form{
     display: grid;
     background-color: blueviolet;
  
@@ -58,10 +68,14 @@ justify-content: space-around;
 align-items: center;
 margin-inline: auto;
 
-height: 10%;
+height: 15%;
 width: 80%;
+border-radius: 25px;
+
 
 }
+
+
 .select{
     width: 450px;
     display: flex;
