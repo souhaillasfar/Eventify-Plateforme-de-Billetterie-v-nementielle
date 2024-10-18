@@ -1,0 +1,33 @@
+# Eventify: Plateforme de Billetterie Événementielle
+
+## About Eventify
+
+Eventick est une plateforme de billetterie en libre-service pour des expériences live, permettant à quiconque de créer, partager, trouver et assister à des événements qui nourrissent leurs passions.
+
+## Table des matières
+
+- [Fonctionnalités](#fonctionnalités)
+- [Technologies utilisées](#technologies-utilisées)
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Contribuer](#contribuer)
+- [Licence](#licence)
+
+## Fonctionnalités
+
+- Navigation intuitive avec un menu de navigation clair.
+- Recherche d'événements avec des filtres par lieu, date et type d'événement.
+- Affichage des événements à venir avec des images et des descriptions.
+- Intégration d'une section blog pour des articles pertinents.
+- Zone d'inscription à une newsletter pour rester informé des nouveautés.
+
+## Technologies utilisées
+
+- HTML5
+- CSS3
+
+
+
+
+
+
