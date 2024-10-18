@@ -1,14 +1,14 @@
 body{
     background-image: url(./images/First\ Fold.png);
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-
+    min-height: 100vh;
+    
+    margin-top: 10%;
 }
 
 .nav_bar{
-    background-color: blueviolet;
-    opacity: calc(0.8);
+    
+    background-color:rgb(216, 112, 147,0.3);
     position: fixed;
     top: 0;
     justify-content: space-between;
@@ -19,7 +19,6 @@ body{
 }
 
 
-
 .navbar{
     display: flex;
     width: 30%;
@@ -28,12 +27,14 @@ body{
 }
 .navbar a{
     color: white;
+    text-decoration: none;
 }
 .grid_home{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
 }
 
 
@@ -60,19 +61,27 @@ body{
     text-decoration:solid;
 }
 .grid_form{
-    display: grid;
-    background-color: blueviolet;
- 
-justify-content:flex-end ;
-grid-template-columns: 1fr 1fr 1fr;
-justify-content: space-around;
-align-items: center;
-margin-inline: auto;
+    
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+.tab{
+    background-color:#242565;
+    width: 800px;
+    height: 70px;
+    border-radius: 25px;
+    margin-left: 15%;
+    margin-top: 20px;
 
-height: 15%;
-width: 80%;
-border-radius: 25px;
-
+}
+.grid_form input{
+    background-color:#242565;
+    margin-top: 5%;
+    border: 0;
+    border-bottom: 1px solid white;
+    color: white;
 
 }
 
@@ -94,15 +103,25 @@ border-radius: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: aliceblue;
+    background-color:white;
+}
+.upcoming h1{
+ color: #242565;
+}
+.upcoming select{
+    color:#242565 ;
+    border-radius: 20px;
+    border: 0;
+
 }
 .grid_pl{
    
-    background-color: aliceblue;
+    background-color:white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-left: 5%;
+    /* margin-left: 5%; */
+    width: 100%;
     
     
 }
@@ -146,7 +165,7 @@ border-radius: 25px;
 }
 .datebox{
   display: flex;
- */
+
 }
 .dd{
     
@@ -159,7 +178,9 @@ border-radius: 25px;
 .join{
     background-color: #EEE1FF;
     width: 100%;
-    height: 200px;;
+    height: 200px;
+    margin-top: 14px;
+    margin-left: 15px;
 }
 .joinh{
     display: flex;
@@ -274,7 +295,7 @@ width: 100px;
     
     display: grid;
     grid-template-columns: 1fr  1fr 1fr 1fr;
-    width: 90%%;
+    width: 90%;
     height: 70%;
     /* justify-content: space-between; */
     margin-top: 15%;
@@ -375,9 +396,15 @@ background-color:rgb(217, 217, 217,0.2);
         align-items: center;
         justify-content: center;
     }
-    .b [type=button]{
+    .b2{
+       
         background-color: #F5167E;
+    border-radius: 50px;
+    width: 100px;
+    border: none;
+    height: 40px;
        
         }
+        
         
       
