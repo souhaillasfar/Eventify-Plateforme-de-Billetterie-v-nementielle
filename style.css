@@ -25,9 +25,9 @@ body{
     width: 30%;
     justify-content: space-around;
     align-items: center;
-    /* z-index: 100; */
-   
-
+}
+.navbar a{
+    color: white;
 }
 .grid_home{
     display: grid;
@@ -300,12 +300,12 @@ margin-left: 9%;
 
 margin-left: 10%;
 background-color:rgb(217, 217, 217,0.2);
- text-align:start;
+ text-align:center;
  text-shadow: #070707;
  font-family: monospace;
  width: 14%;
  height: 7%;
- padding: 2%;
+ padding:2px;
  
 
  
@@ -366,3 +366,18 @@ background-color:rgb(217, 217, 217,0.2);
     margin-bottom: 40%;
 
 }
+.txt{
+        border-radius: 20px;
+        display: flex; 
+        height: 50px;
+        width: 100%;
+        background-color: #FFF;
+        align-items: center;
+        justify-content: center;
+    }
+    .b [type=button]{
+        background-color: #F5167E;
+       
+        }
+        
+      
