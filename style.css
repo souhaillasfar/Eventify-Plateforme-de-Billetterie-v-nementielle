@@ -1,9 +1,8 @@
 body{
-    background-image: url("./images/Rectangle 1.png"),url("./images/Rectangle\ 10.png") ;
+    background-image: url(./images/First\ Fold.png);
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    background-blend-mode: multiply;
 
 }
 
@@ -11,6 +10,7 @@ body{
     background-color: blueviolet;
     opacity: calc(0.8);
     position: fixed;
+    top: 0;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -253,4 +253,35 @@ width: 100px;
 .line p{
     display: flex;
     justify-content: center;
+}
+/* page speakers */
+
+.speak h1{
+ background-color:rgb(217, 217, 217,0.2);
+ text-align:start;
+ text-shadow: #070707;
+ font-family: monospace;
+ padding: auto;
+ width: 15%;
+ height: 7%;
+ position: absolute;
+ 
+ top: 15%;
+ margin-left: 6%;
+}
+.grid_speakers{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    width: 90%%;
+    height: 70%;
+    /* justify-content: space-between; */
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.SP{
+    border-radius: 100%;
+}
+.grid_speakers h5,p{
+margin-left: 9%;
 }
