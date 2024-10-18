@@ -26,6 +26,7 @@ body{
     justify-content: space-around;
     align-items: center;
     /* z-index: 100; */
+   
 
 }
 .grid_home{
@@ -270,7 +271,7 @@ width: 100px;
  margin-left: 6%;
 }
 .grid_speakers{
-    border: 2px solid red;
+    
     display: grid;
     grid-template-columns: 1fr  1fr 1fr 1fr;
     width: 90%%;
@@ -284,4 +285,84 @@ width: 100px;
 }
 .grid_speakers h5,p{
 margin-left: 9%;
+}
+/* about us */
+.about{
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    width: 100%;
+    height: 60%;
+    
+   
+}
+.about h1{
+
+margin-left: 10%;
+background-color:rgb(217, 217, 217,0.2);
+ text-align:start;
+ text-shadow: #070707;
+ font-family: monospace;
+ width: 14%;
+ height: 7%;
+ padding: 2%;
+ 
+
+ 
+}
+.about p{
+    background-color:rgb(217, 217, 217,0.2);
+    text-align:start;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #070707;
+    width: 50%;
+    padding:2%;
+
+}
+/* login  */
+.login{
+    width: 100%;
+    height: 60%;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.email{
+    background-color: rgb(217, 217, 217,0.2);
+    margin-left: 10px;
+    border: 0;
+    padding: 4px;
+    width: 300px;
+}
+.password{
+    background-color: rgb(217, 217, 217,0.2);
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 0;
+    padding: 4px;
+    width: 300px;
+}
+.em{
+    background-color: rgb(217, 217, 217,0.2);
+    margin-right: 52px;
+    padding: 4px;
+}
+.pwd{
+    background-color: rgb(217, 217, 217,0.2);
+    margin-right: 30px;
+    padding: 4px;
+}
+.login [type=button]{
+    background-color: #F5167E;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    
+    font-size:x-large;
+    font-family: bold;
+    margin-left: 20%;
+    margin-bottom: 40%;
+
 }
